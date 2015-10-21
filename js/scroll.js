@@ -18,6 +18,7 @@ $(window).scroll(function() {
         $("#navcontainer").css("top","81px");
         $("#main").css("margin-top","180px");
         $("#headerbackground").css("height","100px");
+        $(".contact_info").css("display","none");
 
     }else{
     	$(".hlogo").css("width","100%");    
@@ -27,6 +28,7 @@ $(window).scroll(function() {
         $("#navcontainer").css("top","161px");
         $("#main").css("margin-top","261px");
         $("#headerbackground").css("height","261px");
+        $(".contact_info").css("display","block");
 
 
 

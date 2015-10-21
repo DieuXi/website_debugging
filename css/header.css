@@ -55,7 +55,19 @@ transition: 0.2s;
 }
 
 
+.contact_info{
+
+color: white;
+text-align: end;
+font-family: 'TitilliumText25L400wt';
+font-size: 15px;
+padding-top: 20%;
+transition: 0.2s;
+    transition-timing-function: ease;
+}
+
 #tagline {
+    width: 780px;
     position: absolute;
     left: 240px;
     top: 85px;
