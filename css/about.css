@@ -1,0 +1,68 @@
+html {
+  background: url('../img/about_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#background { background: url('../img/about_bg.jpg'); width: 100%; height: 100%; z-index: -1; position: fixed; top: 0px; left: 0px;}
+#headerbackground {background: url('../img/about_bg_top.jpg'); width: 100%; height: 260px; z-index: 4; position: fixed; top: 0px; left: 0px; }
+
+
+#about { border-bottom: 5px solid #EE3124; }
+#work:hover { border-bottom: 5px solid #EE3124; }
+
+#headlinecontainer { background-color: white; overflow:hidden; margin-bottom: 42px;}
+.headline { font-family: 'TitilliumText25L250wt'; font-size: 48px; color: #EE3124; border-top: 1px solid #D3D3d3; background: url('../img/about/about_texture.jpg'); padding: 44px 80px 44px 80px; }
+.secondaryheadline { font-family: 'TitilliumText25L250wt'; font-size: 22px; color: #231F20; margin-top: 20px; line-height: 1.2;}
+
+#main {background-color: white; margin-top: 261px; overflow:hidden;}
+#main .sectionheader { font-family: 'TitilliumText25L800wt'; font-size: 20px; color: #777777; margin-bottom: 15px;}
+#main .sectionsubheader { font-family: 'TitilliumText25L600wt'; font-size: 15px; color: #515151; letter-spacing:1px; margin-top: -14px;
+margin-bottom: 20px;}
+
+.redhover { -webkit-transform: skew(-60deg); -moz-transform: skew(-60deg); -o-transform: skew(-60deg); background: #EE3124; position: absolute; top: 0px; left: 440px; opacity: .8; cursor: pointer; }
+.redhoverunskew { position: absolute; width: 50px; height: 50px; border-radius: 25px; -webkit-transform: skew(60deg); -moz-transform: skew(60deg); -o-transform: skew(60deg);-moz-box-shadow:0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow:0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+box-shadow:0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000');}
+
+#collaborators { position: relative; overflow: hidden; margin-top: 34px; margin-left: 85px; width: 1000px;}
+.collaborator { position: relative; overflow: hidden; float: left; width: 203px; margin-right: 117px; height: 235px;}
+.collaborator .imgcontainer  { position: relative; overflow: hidden; float: left;  }
+.collaborator .name {font-family: 'TitilliumText25L800wt'; clear: left; font-size: 13px; color: #EE3124; letter-spacing: 1px; margin-top: 9px; margin-bottom: 5px;}
+.collaborator .title {font-family: 'TitilliumText25L999wt'; font-size: 15px; color: #515151; letter-spacing: 1px;  margin-top: 4px; margin-bottom: 4px;}
+.collaborator .imgcontainer .redhover { width: 600px; height: 150px; }
+.collaborator .imgcontainer .redhoverunskew { top: 53px; left: 190px;}
+
+#creativeleads { position: relative; overflow: hidden; margin-left: 84px; float: left;}
+.creativelead { position: relative; overflow: hidden; float: left; margin-right: 90px; }
+.creativelead img  {}
+.creativelead .name {font-family: 'TitilliumText25L800wt'; font-size: 13px; color: #EE3124; letter-spacing: 1px; margin-top: 9px; margin-bottom: 5px;}
+.creativelead .title {font-family: 'TitilliumText25L999wt'; font-size: 15px; color: #515151; letter-spacing: 1px;  margin-top: 4px; margin-bottom: 4px;}
+.creativelead .redhover { width: 645px; height: 230px;      }
+.creativelead .redhoverunskew { top: 89px; left: 298px;  }
+
+#maincontent { margin-top: 10px; }
+
+
+#expertise { position: relative; overflow: hidden; float: left; width: 162px; }
+#expertise .category {font-family: 'TitilliumText25L800wt'; font-size: 15px; color: #EE3124; letter-spacing: 1px; margin-bottom: 5px;}
+#expertise .description {font-family: 'TitilliumText25L600wt'; font-size: 13px; color: #515151; margin-bottom: 5px;}
+#expertise .divider { border-bottom: 1px dashed #EE3124; height:4px; margin-bottom: 7px; width: 100%;}
+
+.individualbio { opacity: 0; margin-top: 10px; position: relative; overflow: hidden; background-color: #EEEEEE; width:790px; margin-left: 80px; margin-bottom: 20px; }
+.individualbio .headerbar { background-color: #EE3124; width:100%; height:21px; font-family: 'TitilliumText25L800wt'; font-size: 14px; color: white; padding-top: 10px;
+padding-left: 12px;}
+.individualbio .headerbar img { position: absolute; cursor: pointer; right: 5px; top: 3px;}
+.individualbio .imagecontainer { float: left; margin-top: 30px; margin-right: 20px; margin-left: 47px; margin-bottom: 30px;}
+.individualbio .biocontainer { float: left; margin-top: 20px; margin-right: 20px; margin-left: 27px; width: 499px; margin-bottom: 20px;}
+.individualbio .name {font-family: 'TitilliumText25L800wt'; font-size: 18px; color: #EE3124; letter-spacing: 1px; margin-top: 9px; margin-bottom: 5px;}
+.individualbio .title {font-family: 'TitilliumText25L800wt'; font-size: 14px; color: #515151; letter-spacing: 1px;  margin-top: 4px; margin-bottom: 4px;}
+.individualbio .links a {font-family: 'TitilliumText25L800wt'; font-size: 14px; color: #EE3124; line-height: 1.2; text-decoration: none;}
+.individualbio .bio {font-family: 'TitilliumText25L600wt'; font-size: 14px; color: #515151; line-height: 1.2; margin-top: 4px; margin-bottom: 4px;}
+.individualbio .bio p { margin-bottom: 10px;}
+.individualbio .bio b { font-family: 'TitilliumText25L999wt'; }
