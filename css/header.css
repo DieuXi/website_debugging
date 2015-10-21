@@ -1,34 +1,173 @@
-#header {position: fixed; top: 0px; padding: 0; margin-bottom: 0; z-index: 5; margin-left: -510px; left: 50%; }
-.socialcontainer {position: absolute; right: 0px; top: 10px; z-index: 5; }
-.socialbutton {float: right; margin-left: 10px; width: 30px; height: 30px; background-color: white;}
-
-.socialbutton a {display: block; width: 30px; height: 30px; text-indent: -9999px;}
-.socialbutton a.facebook {background: url('../img/SMFacebook.svg'); }
-.socialbutton a.linkedin {background: url('../img/SMLinkedin.svg'); }
-.socialbutton a.vimeo {background: url('../img/SMVimeo.svg'); }
-.socialbutton a.pinterest {background: url('../img/SMPinterest.svg'); }
-.socialbutton a.twitter {background: url('../img/SMTwitter.svg'); }
-#logo { margin-bottom: 54px; z-index: 5; position: absolute;}
-#tagline { position: absolute; left: 240px; top: 85px; z-index: 5;font-family: 'TitilliumText25L400wt'; font-size: 26px; color: #FFFFFF; letter-spacing: 1px;}
-
-#nav {background-color: white; overflow:hidden; height: 57px; padding-top: 42px;border-bottom: 1px solid #D3D3d3
+#header {
+    position: fixed;
+    top: 0px;
+    padding: 0;
+    margin-bottom: 0;
+    z-index: 5;
+    margin-left: -510px;
+    left: 50%;
 }
-#navcontainer { background-color: white; overflow:hidden; z-index: 5; position: fixed; top: 161px;}
-#nav .navbutton { float:left;}
-#nav .navbutton a { font-family: 'TitilliumText25L800wt'; font-size: 24px; color: #515151; text-decoration: none; letter-spacing: 1px;}
-#nav .divider { font-family: 'TitilliumText25L800wt'; font-size: 24px; color: #515151; float:left; margin-left: 7px; margin-right: 7px;}
+.socialcontainer {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 5;
+}
+.socialbutton {
+    float: right;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.socialbutton a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+}
+.socialbutton a.facebook {
+    background: url('../img/SMFacebook.svg');
+}
+.socialbutton a.linkedin {
+    background: url('../img/SMLinkedin.svg');
+}
+.socialbutton a.vimeo {
+    background: url('../img/SMVimeo.svg');
+}
+.socialbutton a.pinterest {
+    background: url('../img/SMPinterest.svg');
+}
+.socialbutton a.twitter {
+    background: url('../img/SMTwitter.svg');
+}
+#logo {
+    margin-bottom: 54px;
+    z-index: 5;
+    position: absolute;
+}
 
-#prevproj { position: absolute; cursor: pointer; display: none; right: 55px; top: 29px; width: 50px; height: 40px; background: url('../img/work/LeftArrowSM.svg'); }
-#nextproj { position: absolute; cursor: pointer; display: none; right: 0px; top: 29px; width: 50px; height: 40px; background: url('../img/work/RightArrowSM.svg'); }
+.hlogo{
+
+transition: 0.2s;
+    transition-timing-function: ease;
+
+}
 
 
+#tagline {
+    position: absolute;
+    left: 240px;
+    top: 85px;
+    z-index: 5;
+    font-family: 'TitilliumText25L400wt';
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    transition: 0.2s;
+        transition-timing-function: ease;
 
-#footer {background-color: white; overflow:hidden; font-family: 'TitilliumText25L400wt'; font-size: 15px; color: #515151; padding-top: 130px; line-height: 1.3; padding-bottom: 30px; position: relative;}
-#footer a {font-family: 'TitilliumText25L400wt'; font-size: 15px; color: #515151; text-decoration: none;}
-#footer .divider { border-top: 1px dashed #EE3124; margin-bottom: 30px;}
-#footer .large { font-family: 'TitilliumText25L400wt'; font-size: 33px; color: #515151;}
-#footer .tagline{ position: absolute; bottom: 30px; right: 142px; font-family: 'TitilliumText25L800wt'; font-size: 20px; color: #EE3124; }
-#footer img { position: absolute; bottom: 22px;; right: 35px; }
+}
+#nav {
+    background-color: white;
+    overflow: hidden;
+    height: 57px;
+    padding-top: 42px;
+    border-bottom: 1px solid #D3D3d3
+}
+#navcontainer {
+    background-color: white;
+    overflow: hidden;
+    z-index: 5;
+    position: fixed;
+    top: 161px;
+    transition: 0.2s;
+        transition-timing-function: ease;
 
-#footer2 {font-family: 'TitilliumText25L600wt'; font-size: 13px; color: white; padding-top: 10px; padding-bottom: 80px; padding-left: 0px;}
-
+}
+#nav .navbutton {
+    float: left;
+}
+#nav .navbutton a {
+    font-family: 'TitilliumText25L800wt';
+    font-size: 24px;
+    color: #515151;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+#nav .divider {
+    font-family: 'TitilliumText25L800wt';
+    font-size: 24px;
+    color: #515151;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#prevproj {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    right: 55px;
+    top: 29px;
+    width: 50px;
+    height: 40px;
+    background: url('../img/work/LeftArrowSM.svg');
+}
+#nextproj {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    right: 0px;
+    top: 29px;
+    width: 50px;
+    height: 40px;
+    background: url('../img/work/RightArrowSM.svg');
+}
+#footer {
+    background-color: white;
+    overflow: hidden;
+    font-family: 'TitilliumText25L400wt';
+    font-size: 15px;
+    color: #515151;
+    padding-top: 130px;
+    line-height: 1.3;
+    padding-bottom: 30px;
+    position: relative;
+}
+#footer a {
+    font-family: 'TitilliumText25L400wt';
+    font-size: 15px;
+    color: #515151;
+    text-decoration: none;
+}
+#footer .divider {
+    border-top: 1px dashed #EE3124;
+    margin-bottom: 30px;
+}
+#footer .large {
+    font-family: 'TitilliumText25L400wt';
+    font-size: 33px;
+    color: #515151;
+}
+#footer .tagline {
+    position: absolute;
+    bottom: 30px;
+    right: 142px;
+    font-family: 'TitilliumText25L800wt';
+    font-size: 20px;
+    color: #EE3124;
+}
+#footer img {
+    position: absolute;
+    bottom: 22px;
+    ;
+    right: 35px;
+}
+#footer2 {
+    font-family: 'TitilliumText25L600wt';
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
