@@ -10,7 +10,7 @@ $( document ).ready(function() {
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 
-    if(height  > 0) {
+    if(height  > 0 || openprojectid != 0) {
         $(".hlogo").css("width","50%");    
         $("#tagline").css("font-size","18px");  
         $("#tagline").css("left","130px");
