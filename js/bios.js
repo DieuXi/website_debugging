@@ -111,6 +111,13 @@ var bios = [
       Href: ["unitedphotoindustries.com", "photoville.com"]
 },
 {
+      Name: 'Diou Shi', 
+      Title: 'Web/Interactive Developer', 
+      Src: 'diou.jpg',
+      Bio: "<p>An accomplished programmer and UX designer, Diou holds an MFA in Digital Arts from the Pratt Institute in New York, where he also held a position at the Pratt Research Center, doing work on combining digital fashion with generative computing design. He is currently an UX Engineer at Monster.com. He also works as a magician.</p>",
+      Href: ["www.dioushi.com"]
+},
+{
       Name: 'SKIN AND BONES', 
       Title: 'Musician', 
       Src: 'skin_n_bones_a.jpg',
